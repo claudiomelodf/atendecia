@@ -1,0 +1,19 @@
+/* Add custom styles here */
+
+/* Limit the height of the text content within assistant messages */
+.message.assistant .content .message-text-content {
+    max-height: 250px; /* Adjust this value as needed */
+    overflow-y: auto;  /* Add scrollbar if content exceeds max-height */
+    margin-top: 10px;  /* Add some space below the image/logo block */
+    padding-right: 5px; /* Add some padding so scrollbar doesn't overlap text */
+}
+
+/* Minor adjustments for better spacing and alignment */
+.message .content {
+    position: relative; /* Ensure copy button positioning works */
+}
+
+.message.assistant .content img[alt="Imagem do Produto"] {
+    margin-bottom: 10px; /* Ensure space between product image and text */
+}
+
